@@ -14,7 +14,7 @@
 	"homepage": "https://github.com/lukaszwisniewski88/SimpleSvelteTable",
 	"bugs": "https://github.com/lukaszwisniewski88/SimpleSvelteTable/issues",
 	"repository": "https://github.com/lukaszwisniewski88/SimpleSvelteTable",
-	"version": "0.0.1a",
+	"version": "1.0.0",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build && npm run package",

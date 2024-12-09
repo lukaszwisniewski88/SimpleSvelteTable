@@ -1,6 +1,6 @@
-<script lang="ts" generics="TData extends Record<string, unknown>">
+<script lang="ts" generics="TData extends Record<string, unknown>, KeyType extends keyof TData">
 	import { type BaseTableProps } from './index.js';
-	let { data, emptyState, headerMap }: BaseTableProps<TData> = $props();
+	let { data, emptyState, id_key, headerMap }: BaseTableProps<TData, KeyType> = $props();
 	let columns = data.length > 0 ? Object.keys(data[0]).map((key) => ({ header: key })) : [];
 </script>
 

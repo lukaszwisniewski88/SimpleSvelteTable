@@ -23,6 +23,14 @@
 
 <Table
 	{data}
+	id_key="name"
+	actions={[
+		{
+			label: 'Edit',
+			type: 'button',
+			url: '/edit/:id'
+		}
+	]}
 	headerMap={{
 		name: 'Full Name'
 	}}

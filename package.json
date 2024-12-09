@@ -1,6 +1,20 @@
 {
-	"name": "dstable",
-	"version": "0.0.1",
+	"name": "svelte-just-table",
+	"description": "Just a table component for Svelte",
+	"author": "Łukasz Wiśniewski <lukasz@szery.net.pl> (https://szery.net.pl)",
+	"keywords": [
+		"svelte",
+		"table",
+		"component",
+		"ui",
+		"simple",
+		"minimalistic"
+	],
+	"license": "MIT",
+	"homepage": "https://github.com/lukaszwisniewski88/SimpleSvelteTable",
+	"bugs": "https://github.com/lukaszwisniewski88/SimpleSvelteTable/issues",
+	"repository": "https://github.com/lukaszwisniewski88/SimpleSvelteTable",
+	"version": "0.0.1a",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build && npm run package",
